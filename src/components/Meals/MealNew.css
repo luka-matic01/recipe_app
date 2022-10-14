@@ -1,0 +1,212 @@
+.meal-container {
+    display:flex;
+    align-items: center;
+}
+
+.meal {
+   
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.img-meals {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+margin-bottom: 35px;
+width: 370px;
+}
+
+h5 {
+    margin: 0 0 0.25rem 0;
+}
+
+
+.price {
+    margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.meal-lol {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  
+}
+
+input[type='submit']:hover {
+  background-color: rgb(255, 162, 0);
+}
+
+input[type='submit'] {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffc107;
+  color: rgb(255, 255, 255);
+}
+
+input[type='text'] {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+
+
+.meal-lol input {
+
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+  
+  
+}
+
+h5 {
+  margin: 55px;
+}
+
+.meal-lola input {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+  width: 250px;
+
+}
+
+
+.time {
+ margin: -30px;
+  width: 100%;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.keystroke {
+  font-size: 22px;
+}
+
+.time input {
+ 
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+  
+}
+
+.card-lol {
+  color: #ffc107;
+}
+
+
+
+.lezgo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .elementfood {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 200px  700px;
+  margin: -150px;
+} */
+
+.meal-text {
+  margin-top: 110px;
+}
+
+.meal-title {
+text-align: center;
+font-size: 20px;
+}
+
+.img-meal {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 60%;
+ margin-bottom: 30px;
+}
+
+.toggled {
+  color: #3f1f00;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: auto ;
+}
+
+.cuisine-css {
+  width:30%;
+  margin-left: 120px;
+  margin-top: 50px;
+  text-align-last:center;
+
+}
+
+.time-css{
+justify-content:right ;
+text-align: right;
+margin-left: 400px;
+display: inline-block;
+width: 300px;
+text-align-last:center;
+
+
+
+}
+
+.cuisine-text {
+text-align: left;
+justify-content: left;
+margin-left: 2px;
+color: #924700;
+width: 50%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
